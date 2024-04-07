@@ -10,7 +10,7 @@ public class moveeeee : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        playeranimation = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -19,8 +19,8 @@ public class moveeeee : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
             moveplayer();
-           /* playeranimation.SetBool("walking", true);
-      */
+            playeranimation.SetBool("walking", true);
+
 
 
 
